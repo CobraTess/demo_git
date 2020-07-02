@@ -8,6 +8,7 @@ public class Utilisateur {
 	private int id;
 	private String nom;
 	private String prenom;
+	private String patate;
 	
 	/*================constructor=============*/
 	public Utilisateur() {
