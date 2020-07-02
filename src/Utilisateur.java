@@ -20,8 +20,16 @@ public class Utilisateur {
 		this.nom = nom;
 		this.prenom = prenom;
 	}
+	
+	
 
 	
+	public Utilisateur(String nom, String prenom) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
 	// getter et setter
 	public int getId() {
 		return id;
